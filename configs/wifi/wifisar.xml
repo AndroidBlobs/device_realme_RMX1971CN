@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wifisar>
+    <project name="19692">
+        <region name="MX" has_only_gsm="false">
+            <wifi_head_sar>37,23,23,29,32</wifi_head_sar>
+            <wifi_body_sar>37,23,23,31,32</wifi_body_sar>
+            <gsm_wifi_head_sar>33,20,20,25,30</gsm_wifi_head_sar>
+            <gsm_wifi_body_sar>33,23,23,29,32</gsm_wifi_body_sar>
+        </region>
+    </project>
+</wifisar>

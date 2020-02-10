@@ -55,6 +55,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="true" />
         <string-array name="mccmnc" num="2">
             <item value="45400" />
             <item value="45419" />
@@ -64,6 +65,72 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <string-array name="mccmnc" num="1">
             <item value="45406" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="CT" iccid="8986">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="false" />
+        <string-array name="mccmnc" num="1">
+            <item value="20404" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="FET">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="true" />
+        <boolean name="config_oppo_hide_2g_only" value="true" />
+        <boolean name="config_oppo_wifi_eap_sim_bool" value="true" />
+        <boolean name="config_oppo_lte_preferred_for_second_slot" value="true" />
+        <boolean name="config_oppo_dual_lte_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="46601" />
+            <item value="46602" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="APTG">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="true" />
+        <boolean name="config_oppo_lte_preferred_for_second_slot" value="true" />
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="46697" />
+        </string-array>
+        <string-array name="mccmnc" num="1">
+            <item value="46605" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="TWM">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="config_oppo_hide_2g_only" value="true" />
+        <boolean name="config_oppo_lte_preferred_for_second_slot" value="true" />
+        <boolean name="config_oppo_dual_lte_available_bool" value="true" />
+        <boolean name="config_oppo_hide_cancel_all_callbarring" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="46697" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="CHT">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="oppo.operator.ringtone" value="2" />
+        <boolean name="config_oppo_sms_ims_support_bool" value="true" />
+        <boolean name="config_oppo_hide_2g_only" value="true" />
+        <boolean name="config_oppo_lte_preferred_for_second_slot" value="true" />
+        <boolean name="config_oppo_dual_lte_available_bool" value="true" />
+        <boolean name="config_oppo_hide_cancel_all_callbarring" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="46692" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="TST">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="config_oppo_hide_2g_only" value="true" />
+        <boolean name="config_oppo_lte_preferred_for_second_slot" value="true" />
+        <boolean name="config_oppo_dual_lte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="46689" />
         </string-array>
     </carrier_config>
     <carrier_config operator="TEST SIM">

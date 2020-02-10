@@ -313,14 +313,12 @@ vendor/lib/camera/com.qti.sensormodule.holitech_gc2375h.bin
 vendor/lib/camera/com.qti.sensormodule.holitech_sp2509v.bin
 vendor/lib/camera/com.qti.sensormodule.sunny_hi846.bin
 vendor/lib/camera/com.qti.sensormodule.sunny_imx586.bin
-vendor/lib/camera/com.qti.sensormodule.sunny_s5k3p9sp.bin
 vendor/lib/camera/com.qti.sensormodule.trulyi2c20_imx471.bin
 vendor/lib/camera/com.qti.tuned.holitech_gc2375h.bin
 vendor/lib/camera/com.qti.tuned.holitech_sp2509v.bin
 vendor/lib/camera/com.qti.tuned.sunny_hi846.bin
 vendor/lib/camera/com.qti.tuned.sunny_imx586.bin
 vendor/lib/camera/com.qti.tuned.truly_imx471.bin
-vendor/lib/camera/com.qti.tuned.truly_s5k3p9sp.bin
 vendor/lib/camera/components/com.arcsoft.node.yuvhdr.so
 vendor/lib/camera/components/com.oppo.node.bokeh.so
 vendor/lib/camera/components/com.oppo.node.drawafinfo.so
@@ -439,14 +437,12 @@ vendor/lib64/camera/com.qti.sensormodule.holitech_gc2375h.bin
 vendor/lib64/camera/com.qti.sensormodule.holitech_sp2509v.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_hi846.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_imx586.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_s5k3p9sp.bin
 vendor/lib64/camera/com.qti.sensormodule.trulyi2c20_imx471.bin
 vendor/lib64/camera/com.qti.tuned.holitech_gc2375h.bin
 vendor/lib64/camera/com.qti.tuned.holitech_sp2509v.bin
 vendor/lib64/camera/com.qti.tuned.sunny_hi846.bin
 vendor/lib64/camera/com.qti.tuned.sunny_imx586.bin
 vendor/lib64/camera/com.qti.tuned.truly_imx471.bin
-vendor/lib64/camera/com.qti.tuned.truly_s5k3p9sp.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
@@ -898,6 +894,8 @@ vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM_FAE.img
 vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM_TEST.img
 vendor/firmware/ufs/MICRON-128GB-UFS-MT.bin
 vendor/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh
+vendor/firmware/ufs/SAMSUNG-KM5V7001DM-B621.bin
+vendor/firmware/ufs/SAMSUNG-KM8V7001JM-B810.bin
 vendor/firmware/ufs/SKhynix-H9HQ53ACPMMDAR.bin
 vendor/firmware/ufs/SKhynix-H9HQ53AECMMDAR.bin
 

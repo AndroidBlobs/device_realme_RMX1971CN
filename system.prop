@@ -235,6 +235,8 @@ persist.vendor.camera.privapp.list = com.oppo.camera,com.coloros.aruler,com.jian
 #ifdef VENDOR_EDIT
 #Guocheng.Wan@RM.Camera.Tuning, 2019/03/20, Modify for enabling Light Intensity Assisting AEC
 persist.camera.light_ae.enable = 1
+#xin.ouyang@Camera.Android.Tuning.AF, 2019/08/19, add for enable IIR in pdlib
+persist.vendor.camera.lcr.en = 1
 #endif
 
 #

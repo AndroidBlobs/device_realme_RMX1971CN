@@ -475,7 +475,7 @@ if [ ! -s /mnt/vendor/persist/bdwlan.bin -o $system_version -gt $persist_version
 				##19692
 					case $Modem_version in
 						"5")
-							cp /vendor/etc/wifi/bdwlan_19691.bin /mnt/vendor/persist/bdwlan_19691.bin
+							cp /vendor/etc/wifi/bdwlan_19692.bin /mnt/vendor/persist/bdwlan_19692.bin
 						;;
 					esac
 				;;
@@ -530,7 +530,11 @@ case $prj_version in
 			##19692
 				case $Modem_version in
 					"5")
-						cp /vendor/etc/wifi/bdwlan_19691.bin /mnt/vendor/persist/bdwlan.bin
+					if [ ! -s /mnt/vendor/persist/bdwlan_19692.bin ]; then
+						cp /vendor/etc/wifi/bdwlan_19692.bin /mnt/vendor/persist/bdwlan.bin
+					else
+						cp /mnt/vendor/persist/bdwlan_19692.bin /mnt/vendor/persist/bdwlan.bin
+					fi
 					;;
 				esac
 			;;

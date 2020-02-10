@@ -1150,6 +1150,20 @@ on property:oppo.wifi.sar.idx=*
     start wifisar
 #endif /* VENDOT_EDIT */
 
+#Zuofa.Liu@PSW.CN.WiFi.Basic, 2019/07/04
+#Add for wifi sar setting on Android P
+service wifisar_realme /system/vendor/bin/wifisar_realme
+    class main
+    user root
+    group root
+    disabled
+    oneshot
+
+# Any property change trigger wifisar setting
+on property:vendor.wifi.sar.idx=*
+    start wifisar_realme
+#endif /* VENDOT_EDIT */
+
 on property:sys.boot_completed=1
     start qcom-post-boot
     start qti-testscripts

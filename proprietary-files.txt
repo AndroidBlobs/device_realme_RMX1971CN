@@ -1940,6 +1940,7 @@ vendor/bin/ssgtzd
 vendor/bin/vppservice
 vendor/bin/wififtm
 vendor/bin/wifisar
+vendor/bin/wifisar_realme
 vendor/bin/wifistopftmtest
 vendor/bin/wifi_diag
 vendor/bin/wigighalsvc

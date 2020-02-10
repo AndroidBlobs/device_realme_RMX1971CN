@@ -26,6 +26,7 @@ vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
 vendor/lib/rfsa/adsp/libarcsoft_hdr_hvx_skel.so
 vendor/lib/rfsa/adsp/libarcsoft_llhdr_hvx_skel.so
+vendor/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
 vendor/lib/rfsa/adsp/libBeautyShot_skel.so
 vendor/lib/rfsa/adsp/libdepthmap_skel.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
@@ -156,6 +157,8 @@ vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_workspaceFile.qwsp
 # Audio-Hardware
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.sdm710.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib/hw/audio.usb.default.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/soundfx/libqcompostprocbundle.so
 vendor/lib/soundfx/libqcomvisualizer.so
@@ -163,6 +166,8 @@ vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libvolumelistener.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.sdm710.so
+vendor/lib64/hw/audio.r_submix.default.so
+vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/soundfx/libqcompostprocbundle.so
 vendor/lib64/soundfx/libqcomvisualizer.so
@@ -384,6 +389,7 @@ vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/libbase64.so
 vendor/lib/libc++_shared.so
 vendor/lib/libcamera_core_hwi.so
+vendor/lib/libcamhidlsensor.so
 vendor/lib/libcamxfdalgov7.so
 vendor/lib/libcamxfdengine.so
 vendor/lib/libcamxstatscore.so
@@ -490,6 +496,8 @@ vendor/lib/libarcsoft_llhdr_hvx_stub.so
 vendor/lib/libarcsoft_low_light_hdr.so
 vendor/lib/libarcsoft_low_light_hdr_raw.so
 vendor/lib/libarcsoft_picauto.so
+vendor/lib/libarcsoft_portraitSN_hvx_stub.so
+vendor/lib/libarcsoft_portrait_super_night_raw.so
 vendor/lib/libarcsoft_relighting_pro_image.so
 vendor/lib/libarcsoft_smart_denoise.so
 vendor/lib/libarcsoft_super_night_raw.so
@@ -1832,14 +1840,18 @@ vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Thermal
+vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/thermal-engine
+vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/thermal-engine.conf
+vendor/lib/hw/android.hardware.thermal@1.0-impl.so
+vendor/lib/hw/thermal.sdm710.so
 -vendor/lib/libthermalclient.so
+vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
+vendor/lib64/hw/thermal.sdm710.so
 -vendor/lib64/libthermalclient.so
 
 # Thermal-Hardware
-vendor/lib/hw/thermal.sdm710.so
-vendor/lib64/hw/thermal.sdm710.so
 
 # Time
 -vendor/app/TimeService/TimeService.apk
@@ -2027,7 +2039,6 @@ vendor/lib/libavformat_vendor.so
 vendor/lib/libavutil_vendor.so
 vendor/lib/libblur_channel.so
 vendor/lib/libbokehclient.so
-vendor/lib/libcamhidlsensor.so
 vendor/lib/libcert_parse.wpa_s.so
 vendor/lib/libcVoiceQ.so
 vendor/lib/libdiagjni.so
